@@ -257,19 +257,20 @@ a:focus {
 }
 .resumo_fn_right .right_bottom a{
 	text-decoration: none;
-	padding-left: 20px;
+	padding-left: 25px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	display: block;
-	font-size: 18px;
+	display: flex;
+	font-size: 16px;
 	color: #999;
 	position: relative;
 	line-height: 25px;
-	max-width: 100%;
+	max-width: 130%;
+	align-items: center;
 }
 .resumo_fn_right .right_bottom a .text{
-	overflow: hidden;
-    text-overflow: ellipsis;
+	overflow: visible;
+    text-overflow: clip;
     white-space: nowrap;
     display: block;
 }
@@ -2542,6 +2543,9 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 }
 .resumo_fn_modalbox .fn__desc:last-child{
 	margin-bottom: 0;
+}
+.resumo_fn_modalbox .fn__desc a{
+	color:#987750;
 }
 .fn__nav{
 	margin-top: auto;
