@@ -31,6 +31,7 @@
 	21) Intro
 	22) Responsive
 	23) Light Version
+	24) Experience Section
 
 
 /*------------------------------------------------------------------*/
@@ -691,6 +692,7 @@ a:focus {
 	font-weight: 500;
 	text-transform: uppercase;
 }
+
 /*------------------------------------------------------------------*/
 /*	07) CV Button
 /*------------------------------------------------------------------*/
@@ -2707,4 +2709,13 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 
 @media(max-width: 370px){
 	.fn__nav .text{display: none;}
+}
+/*------------------------------------------------------------------*/
+/*	23) Experience Section
+/*------------------------------------------------------------------*/
+#experience{
+	padding: 200px 0 50px 0;
+}
+#experience .resumo_fn_main_title{
+	margin-bottom: 74px;
 }
